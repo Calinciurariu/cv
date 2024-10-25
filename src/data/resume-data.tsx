@@ -68,8 +68,8 @@ export const RESUME_DATA = {
       badges: ["Hybrid"],
       title: "Lead Android Developer → Full Stack Developer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2021",
+      
       date: null, position:"Mid → Senior",
       description:
         "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
@@ -80,8 +80,8 @@ export const RESUME_DATA = {
       badges: ["Hybrid"],
       title: "Xamarin Forms Developer", 
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015", date: null,position:"Junior → Mid",
+      start: "2019",
+      end: "2021", date: null,position:"Junior → Mid",
       description:
         "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
     },
