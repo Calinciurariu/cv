@@ -123,12 +123,15 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end ?? "Present"}
+                    {work.date ? work.date : `${work.start} - ${work.end ?? "Present"}`}
                     </div>
                   </div>
 
                   <h4 className="font-mono text-sm leading-none print:text-[12px]">
                     {work.title}
+                  </h4>
+                  <h4 className="font-mono text-sm leading-none print:text-[12px]">
+                    {work.position}
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs print:text-[10px]">
@@ -172,7 +175,18 @@ export default function Page() {
             })}
           </div>
         </Section>
-
+        <Section>
+          <h2 className="text-xl font-bold">Languages</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.languages.map((language) => {
+              return (
+                <Badge className="print:text-[10px]" key={language}>
+                  {language}
+                </Badge>
+              );
+            })}
+          </div>
+        </Section>
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
@@ -193,10 +207,7 @@ export default function Page() {
 
       <CommandMenu
         links={[
-          {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
-          },
+       
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,

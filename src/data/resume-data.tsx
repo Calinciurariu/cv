@@ -20,109 +20,98 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Calin Ciurariu",
+  initials: "CC",
+  location: "Iasi, Romania, GMT+2",
+  locationLink: "https://www.google.com/maps/place/Iasi",
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 6 years of experience working remotely with companies worldwide.",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQG0y5pmS0WyZw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691652629304?e=1735171200&v=beta&t=zWZEc-_LJtvGBAoe1LRN96K6IO_MXq8klCL7Lwwq-Ow",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "calin.ciurariu@gmail.com",
+    tel: "+40729216567",
     social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
+ 
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/c%C4%83lin-ciurariu-31574a153/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+   
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Faculty of Computer Science Iasi",
+      start: "2017",
+      end: "2020",
+      link:"https://www.info.uaic.ro/",
+      degree:""
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
+      company: "Freelance work",
       link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      badges: ["Hybrid"],
+      title: "Lead Web Developer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      date:"2024",  position:"Senior",
       description:
         "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
     },
     {
-      company: "Jojo Mobile",
+      company: "Beenear",
+      link: "https://clevertech.biz",
+      badges: ["Hybrid"],
+      title: "Lead Android Developer → Full Stack Developer",
+      logo: ClevertechLogo,
+      start: "2015",
+      end: "2021",
+      date: null, position:"Mid → Senior",
+      description:
+        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+    },
+    {
+      company: "BSS-ONE",
       link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      badges: ["Hybrid"],
+      title: "Xamarin Forms Developer", 
       logo: JojoMobileLogo,
       start: "2012",
-      end: "2015",
+      end: "2015", date: null,position:"Junior → Mid",
       description:
         "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
     },
     {
-      company: "Nokia Siemens Networks",
+      company: "Innovative-IT",
       link: "https://www.nokia.com",
       badges: [],
-      title: "C/C++ Developer",
+      title: "Xamarin Forms Developer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
+      start: "summer 2018",
+      end: "2019", date: null, position:"Entry-Level Developer",
       description: "Developed and tested software for LTE base stations",
     },
   ],
   skills: [
+    "Xamarin.Forms",
+    ".NET MAUI",
+    "Swift",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "SQL",
+    "MongoDB",
+  ],
+  languages: [
+    "English",
+    "Romanian",
+    "Italian",
+    "French"
   ],
   projects: [
     {
