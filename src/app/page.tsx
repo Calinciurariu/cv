@@ -148,7 +148,7 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                    {work.date ? work.date : `${work.start} - ${work.end ?? "Present"}`}
+                    {work.date || `${work.start} - ${work.end ?? "Present"}`}
                     </div>
                   </div>
 

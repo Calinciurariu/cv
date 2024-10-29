@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       badges: ["Hybrid"],
       title: "Lead Mobile Developer → Full Stack Developer",
       logo: ClevertechLogo,
-      start: "2021",
+      start: "2021", end:"Present",
       
       date: null, position:"Mid → Senior",
       description:"Developed an end-to-end suite of 11 Xamarin-Forms mobile applications for warehouse and retail supply chain management using React, Node.js, and MDM tools, and began porting to .NET MAUI. Designed an in-house framework for these apps and personally managed the porting of another suite of apps from Win-CE to Xamarin.Forms, reducing the technical debt and completing the project with added unit testing."
