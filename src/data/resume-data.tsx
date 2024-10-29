@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Iasi, Romania, GMT+2",
   locationLink: "https://www.google.com/maps/place/Iasi",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Mobile-oriented Full Stack Developer",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 6 years of experience working remotely with companies worldwide.",
+    "As a Full Stack Engineer, I specialize in taking products from concept to launch. Currently, I work mostly with Xamarin Forms, .NET MAUI, React and Node.js. I have over 6 years of experience working remotely with companies worldwide.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQG0y5pmS0WyZw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1691652629304?e=1735171200&v=beta&t=zWZEc-_LJtvGBAoe1LRN96K6IO_MXq8klCL7Lwwq-Ow",
   contact: {
     email: "calin.ciurariu@gmail.com",
@@ -54,64 +54,66 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Freelance work",
-      link: "https://clevertech.biz",
-      badges: ["Hybrid"],
+      link: "",
+      badges: ["Remote"],
       title: "Lead Web Developer",
       logo: ClevertechLogo,
       date:"2024",  position:"Senior",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
+       "Created a dashboard for an online multiplayer game using React and Node.js, managing player accounts and the online shop. Leveraged frameworks like Framer Motion, Tailwind, Leaflet, Material UI, React-Hook-Form, and more to enhance user experience and functionality." },
     {
       company: "Beenear",
-      link: "https://clevertech.biz",
+      link: "https://www.beenear.com/",
       badges: ["Hybrid"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Lead Mobile Developer → Full Stack Developer",
       logo: ClevertechLogo,
       start: "2021",
       
       date: null, position:"Mid → Senior",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
+      description:"Developed an end-to-end suite of 11 Xamarin-Forms mobile applications for warehouse and retail supply chain management using React, Node.js, and MDM tools, and began porting to .NET MAUI. Designed an in-house framework for these apps and personally managed the porting of another suite of apps from Win-CE to Xamarin.Forms, reducing the technical debt and completing the project with added unit testing."
+            },
     {
       company: "BSS-ONE",
-      link: "https://bsgroup.eu/",
+      link: "https://www.bss-one.ro/",
       badges: ["Hybrid"],
       title: "Xamarin Forms Developer", 
       logo: JojoMobileLogo,
       start: "2019",
       end: "2021", date: null,position:"Junior → Mid",
       description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
+        "Delivered a mobile application from MVP to full release for monitoring electricity consumption, billing and price to clients.",
     },
     {
       company: "Innovative-IT",
-      link: "https://www.nokia.com",
+      link: "",
       badges: [],
       title: "Xamarin Forms Developer",
       logo: NSNLogo,
       start: "summer 2018",
       end: "2019", date: null, position:"Entry-Level Developer",
-      description: "Developed and tested software for LTE base stations",
+      description: "Developed and tested an insurance policy management app using Xamarin Forms.",
     },
   ],
   skills: [
     "Xamarin.Forms",
     ".NET MAUI",
     "Swift",
+    "C#",
+    "Blazor",
     "JavaScript",
     "TypeScript",
     "React/Next.js",
     "Node.js",
     "SQL",
     "MongoDB",
+    "Git/TFS",
+    "Soft Skills",
   ],
   languages: [
-    "English",
-    "Romanian",
-    "Italian",
-    "French"
+    "Romanian - Native",
+    "English - C2",
+    "French - B1",
+    "Italian - A1",
   ],
   projects: [
     {
@@ -164,113 +166,6 @@ export const RESUME_DATA = {
         label: "consultly.com",
         href: "https://consultly.com/",
       },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    }
   ],
 } as const;
